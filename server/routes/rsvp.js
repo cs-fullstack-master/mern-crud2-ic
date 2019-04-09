@@ -30,12 +30,12 @@ router.put('/:id', function (req, res, next) {
     });
 });
 
-// Delete a specific RSVP -IMPLEMENT YOUROWNFUNCTION
+// Delete a specific RSVP -IMPLEMENT YOUR OWN FUNCTION
 router.delete('/:id', function (req, res, next) {
     res.send(`DELETE RSVP ${req.params.id}`);
 });
 
-//Create a new RSVP -IMPLEMENT YOUROWNFUNCTION
+//Create a new RSVP -IMPLEMENT YOUR OWN FUNCTION
 router.post('/', function (req, res, next) {
     res.send(`CREATE NEW RSVP ${req.body.rsvp_person} ${req.body.rsvp_going}`);
 });
